@@ -39,7 +39,7 @@ high-tech-software-house/
 
 ## 🚀 How to Use
 
-1. Clone this repo or [Download ZIP](https://github.com/your-repo-link).
+1. Clone this repo or Download ZIP.
 2. Open `index.html` in any modern browser.
 3. Customize images, text, and styles as per your project needs.
 
@@ -55,10 +55,13 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
-## 👨‍💻 Developed By
-
+## 👨‍💻 Author
 **Sheeraz Ahmed**  
-GitHub: [@sheeraz-engineer](https://github.com/sheeraz-engineer)
+Frontend Web Developer  
+📫 [LinkedIn](https://www.linkedin.com/in/sheeraz-ahmed-28317436b/) | [GitHub](https://github.com/sheeraz-engineer)
+
+
+
 
 ---
 
