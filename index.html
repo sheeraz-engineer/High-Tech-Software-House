@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>High Tech Software House</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container nav-container">
+      <h1 class="logo">High Tech Software House</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="container hero-content">
+      <img src="hero.webp" alt="Hero Banner" class="hero-img" />
+      <h2>Our Professional Services</h2>
+      <p>Solutions tailored to your business needs.</p>
+      <a href="#contact" class="btn">Get a Quote</a>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <h2 class="section-title">What We Offer</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <i class="fas fa-code"></i>
+          <h3>Web Development</h3>
+          <p>Custom websites built for performance and scalability.</p>
+          <a href="#" class="btn-small">Learn More</a>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-mobile-alt"></i>
+          <h3>Mobile App Development</h3>
+          <p>Robust mobile solutions for iOS and Android platforms.</p>
+          <a href="#" class="btn-small">Learn More</a>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-pencil-ruler"></i>
+          <h3>UI/UX Design</h3>
+          <p>Modern and intuitive user experiences tailored to your audience.</p>
+          <a href="#" class="btn-small">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+  <div class="container">
+    <h2 class="section-title">Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" id="name" name="name" placeholder="Your Name" required />
+      <input type="email" id="email" name="email" placeholder="Your Email" required />
+      <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+      <p id="formResponse" class="form-response"></p>
+    </form>
+  </div>
+</section>
