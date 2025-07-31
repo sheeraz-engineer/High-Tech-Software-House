@@ -43,9 +43,6 @@ high-tech-software-house/
 2. Open `index.html` in any modern browser.
 3. Customize images, text, and styles as per your project needs.
 
-```bash
-git clone https://github.com/your-username/high-tech-software-house.git
-```
 
 ---
 
